@@ -1,0 +1,19 @@
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    flatDir {
+        dirs 'jars'
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'jars', include: ['*.zip'])
+    compileOnly 'org.projectlombok:lombok:1.16.18'
+
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
