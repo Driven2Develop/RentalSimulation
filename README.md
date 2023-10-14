@@ -1,5 +1,11 @@
 # SMRental
 I added travis! [![Build Status](https://travis-ci.org/NuclearBanane/SMRental.svg?branch=master)](https://travis-ci.org/NuclearBanane/SMRental)
+
+## About the Project
+* This is a simple simulation of the different operations involved with renting a car for a fictional rental company. It is meant to encapsulate some of the nuanced behavior involved with running this type of business. 
+* All activities are asynchronous and non-blocking so that they do not interfere with one another with support for multi-threading behavior.
+* This was the final project for a 4th year Simluations course at University of Ottawa where the intent is to replicate the behavior of a real-world business using OOP. 
+  
 ## Contributing to our Project
 
 * Get Intellij installed on your platform [here](https://www.jetbrains.com/)
